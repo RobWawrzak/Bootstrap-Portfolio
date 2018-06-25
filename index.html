@@ -3,55 +3,48 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
-  <title>Rob Wawrzak</title>
+  <title>Rob Wawrzak | Portfolio</title>
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-sm navbar-light bg-light navbar-fixed-top">
+    <a class="navbar-brand" id="name" href="#">Rob Wawrzak</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="Nav">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-">
-          <button type="button" class="btn btn-lg btn-info" disabled>Robert Wawrzak</button>
-        </div>
-        <div class="col">
-        </div>
-        <div class="col-sm-">
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+    <div class="collapse navbar-collapse" id="navbarsExample03">
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">About
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
     </div>
-  </div>
+  </nav>
 
-  <section class="container">
-    <div class="Content">
-      <div class="row">
-        <div class="col-sm-3">
-          <h1>About Me</h1>
-          <img src="myself.jpg" height="220" width="220" align="left">
-        </div>
-        <div class="col-sm-9 align-middle">
-          <p>I am currently an electronics engineer professional with background in aviation electronics. Aviation started to
-            bore me, so I started to take a web developement bootcamp with University of Toronto. This is the second homework
-            assignment we had accomplish after getting our feet wet with HTML5 and CSS3, but now implementing Boostrap! A
-            current description of who I am, interests or hobbies, or what I'm doing professionally, my social media tags
-            are down below. I hope you like my website, feel free to contact me through the website.
-          </p>
-        </div>
+  <section class="container" id="content">
+    <h1>About Me</h1>
+    <div class="row">
+      <div class="col-md-12 align-middle">
+        <img src="myself.jpg" height="220" width="220" align="left" id="photo">
+        <p>I am currently an electronics engineer professional with background in aviation electronics. Aviation started to
+          bore me, so I started to take a web developement bootcamp with University of Toronto. This is the second homework
+          assignment we had accomplish after getting our feet wet with HTML5 and CSS3, but now implementing Boostrap! A current
+          description of who I am, interests or hobbies, or what I'm doing professionally, my social media tags are down
+          below. I hope you like my website, feel free to contact me through the website.
+        </p>
       </div>
     </div>
   </section>
@@ -62,6 +55,13 @@
       <a href="https://www.linkedin.com/in/robert-wawrzak-0845ba97" class="fa fa-linkedin"></a>
     </div>
   </section>
+
+  <!-- Bootstrap CDN -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

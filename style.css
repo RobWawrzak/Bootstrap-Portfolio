@@ -18,7 +18,6 @@ h1 {
 h2 {
   font-family: 'Georgia', Cambria, Cochin, Georgia, Times, 'Times New Roman',
     serif;
-  /* width: auto; */
   padding: 20px 10px;
   color: white;
   background-color: #4aaaa5;
@@ -29,23 +28,25 @@ h2 {
   bottom: 90px;
 }
 
-.Nav {
-  background-color: white;
+#name {
+  background-color: #4aaaa5;
+  padding: 13px 20px;
+  color: #fff;
+  margin: -30px 0px;
 }
 
-.me {
+#photo {
   margin: 0px 5px 5px 0px;
 }
 
-.Content {
+#content {
   padding: 15px 25px;
   margin: auto;
   background-position: center;
   background-color: #ffffff;
-  width: 960px;
+  width: auto;
   height: auto;
   border: 2px solid #dddddd;
-  overflow: auto;
 }
 
 /* FOOTER CSS */
@@ -87,11 +88,4 @@ h2 {
 .fa-linkedin {
   background: #007bb5;
   color: white;
-}
-
-/* Bootstrap overrides */
-#newcolor {
-  height: auto;
-  border-radius: 5px;
-  background-color: #4aaaa5;
 }
